@@ -1,8 +1,8 @@
 ---
 applications:
-- name: chatbotwuhan
+- name: Chatboxwuhan
   path: target/Chatbot-0.0.1.war
   buildpack: liberty-for-java
   env:
     CONVERSATION_WORKSPACE_ID: 90f55efd-d2b0-4df1-9f70-14bd10e629da
-    CAR_SERVICE_HOST: chatboxwuhan.mybluemix.net/
+    CAR_SERVICE_HOST: iotcardavid.mybluemix.net

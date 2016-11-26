@@ -1,7 +1,8 @@
 ---
 applications:
-- name: webchatbot
+- name: chatbotwuhan
   path: target/Chatbot-0.0.1.war
   buildpack: liberty-for-java
   env:
-    CONVERSATION_WORKSPACE_ID: 7f64d798-cce5-488f-bac2-11c83a2fe19a
+    CONVERSATION_WORKSPACE_ID: 90f55efd-d2b0-4df1-9f70-14bd10e629da
+    CAR_SERVICE_HOST: chatboxwuhan.mybluemix.net/
